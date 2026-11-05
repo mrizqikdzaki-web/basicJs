@@ -132,7 +132,7 @@ const inventaris = [
 ];
 
 const hasilCari = inventaris.find((item) => {
-    return item.kode === "PC003";
+    return item.kode === "PC002";
 });
 
 if (hasilCari) {
