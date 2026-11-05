@@ -123,5 +123,12 @@ function tampilkanBeratBadan(){
     console.log(beratBadan);
 }
 
-tampilkanBeratBadan();
-console.log(beratBadan);
+// tampilkanBeratBadan();
+// console.log(beratBadan);
+
+function tampilkanBeratBadan() {
+    let beratBadan = 70;
+    console.log(beratBadan);
+}
+
+// tampilkanBeratBadan();
