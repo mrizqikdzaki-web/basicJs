@@ -21,9 +21,12 @@
 // }
 // // console.log(`${namanya} mendapatkan nilai ${nilainya}. Status: ${status}`);
 
-const nama = "Andi";
-const kelas = "X ICT";
-const nilai = 85;
-console.log(`Nama: ${nama}
-Kelas: ${kelas}
-Nilai: ${nilai}`);
+const siswa = {
+    nama: "Andi",
+    kelas: "X ICT",
+    nilai: 85,
+};
+
+console.log(`Nama: ${siswa.nama}
+Kelas: ${siswa.kelas}
+Nilai: ${siswa.nilai}`);
