@@ -30,3 +30,4 @@ const siswa = {
 console.log(`Nama: ${siswa.nama}
 Kelas: ${siswa.kelas}
 Nilai: ${siswa.nilai}`);
+

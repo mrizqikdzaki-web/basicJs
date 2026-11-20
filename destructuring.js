@@ -32,9 +32,9 @@ const siswaBaru = [
     { nama: "Eko", nilai: 85, umur: 18, kelas: 10 }
 ];
 
-// siswaBaru.forEach(({nama, nilai, umur, kelas}) => {
-//     console.log("nama: " + nama, "nilai: " + nilai, "umur: " + umur, "kelas: " + kelas)
-// });
+siswaBaru.forEach(({nama, nilai, umur, kelas}) => {
+    console.log("nama: " + nama, "nilai: " + nilai, "umur: " + umur, "kelas: " + kelas)
+});
 
 // const namaSaja = siswaBaru.map((namaDoang) => namaDoang.nama);
 // console.log(namaSaja);
@@ -47,13 +47,13 @@ const siswaBaru = [
 // });
 // console.log(daftarNama)
 
-const daftarHarga = [
-    { nama: "Asus", harga: 14000000, kondisi: "Baru" },
-    { nama: "Lenovo", harga: 16000000, kondisi: "Bekas" },
-    { nama: "MSI", harga: 22000000, kondisi: "Baru" },
-];
+// const daftarHarga = [
+//     { nama: "Asus", harga: 14000000, kondisi: "Baru" },
+//     { nama: "Lenovo", harga: 16000000, kondisi: "Bekas" },
+//     { nama: "MSI", harga: 22000000, kondisi: "Baru" },
+// ];
 
-const daftarLaptop = daftarHarga.map(({nama, harga}) => {
-    return {nama, harga};
-});
-console.log(daftarHarga)
+// const daftarLaptop = daftarHarga.map(({nama, harga}) => {
+//     return {nama, harga};
+// });
+// console.log(daftarHarga)

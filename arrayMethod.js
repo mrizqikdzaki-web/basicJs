@@ -61,10 +61,10 @@ const warTicket = [
     { nama: "Workshop", jumlah: 80, dipesan: 80 }
 ];
 
-// const sisaTicket = warTicket.filter((ticket) => {
-//     return ticket.jumlah - ticket.dipesan >= 10;
-// });
-// console.log(sisaTicket);
+const sisaTicket = warTicket.filter((ticket) => {
+    return ticket.jumlah - ticket.dipesan >= 10;
+});
+console.log(sisaTicket);
 
 // const sisaTicketHabis = warTicket.filter((ticket) => {
 //     return ticket.jumlah - ticket.dipesan === 0;

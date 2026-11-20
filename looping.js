@@ -11,16 +11,16 @@
 //
 
 
-//let nilai = [80, 90, 100, 70, 60]; 
-//for (let i = 0; i < nilai.length; i++) {
-//    if (nilai[i] >= 90) {
-//        console.log(`Nilainya = ${nilai[i]} " - Sangat Bagus (Lulus)"`);
-//    } else if (nilai[i] >= 80) {
-//        console.log(`Nilainya = ${nilai[i]} " - Bagus (Lulus)"`);
-//    } else {
-//        console.log(`Nilainya = ${nilai[i]} " - Kurang (Tidak Lulus)"`);
-//    }
-//
+let nilai = [80, 90, 100, 70, 60]; 
+for (let i = 0; i < nilai.length; i++) {
+}if (nilai[i] >= 90) {
+       console.log(`Nilainya = ${nilai[i]} " - Sangat Bagus (Lulus)"`);
+   } else if (nilai[i] >= 80) {
+       console.log(`Nilainya = ${nilai[i]} " - Bagus (Lulus)"`);
+   } else {
+       console.log(`Nilainya = ${nilai[i]} " - Kurang (Tidak Lulus)"`);
+   }
+
 //}
 
 //let nama = ["Andi", "Budi", "Citra", "Doni", "Eka"];
